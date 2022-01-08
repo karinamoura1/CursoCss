@@ -1,16 +1,49 @@
 body{
-    background-color:#dcdcdc ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     font-weight: lighter;
+    margin: 0;
 }
 h1{
     color: blueviolet;
 }
-p{
-    background-color: honeydew;
-    color: hsl(331, 74%, 15%);
+.contenedor{
+    width: 80%; margin: auto;
 }
-h1:hover{
-    background-color: rgb(211, 41, 41);
+.caja{
+    /*border-bottom: 10px blue solid;
+    border-left: 8px chartreuse solid;
+    border-right: 10px blue solid;
+    border-top: 8px chartreuse solid;
+    */
+    border: 8px blue dashed;
+    padding: 20px 0;
+    margin: 5px 2px 8px 2px;
+}
+.contenedor h1{
+    text-decoration: underline;
+}
+.caja2{
+    border: 4px coral dotted;
+    padding: 15px;
+    margin: 10px 0;
+}
+.caja3{
+    border: 2px rgb(54, 52, 52) solid;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 15px;
+}
+.contenedor2{
+  float: left;  
+  width: 33%;
+  margin-right: 2px;
+}
+.galeria img{
+    width: 100%;
+    height: auto;
+    
+}
+.galeria img:hover{
+    opacity:0.7 ;
 }
