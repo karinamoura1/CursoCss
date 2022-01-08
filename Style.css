@@ -47,3 +47,20 @@ h1{
 .galeria img:hover{
     opacity:0.7 ;
 }
+.posicionamiento {
+    clear:both;
+    border: 1px solid blue;
+    height: 500;
+    position: relative;
+    background-image: url(imagen1.jpg);
+    background-size: 50px;
+    background-repeat: repeat-x;
+    background-position: center;
+}
+.posicionamiento h2{
+    top: 100px;
+}
+.posicionamiento h3{
+    right: 10px;
+    bottom: 10px;
+}
